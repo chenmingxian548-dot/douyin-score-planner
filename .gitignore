@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+private/
+reports/
+downloads/
+*.xlsx
+*.xls
+*.csv
+*.zip
+*.log
+.env*
+!.env.example
+dist/
+!packages/douyin-score-planner-workbuddy-v0.1.0.zip

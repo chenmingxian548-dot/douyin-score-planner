@@ -1,0 +1,22 @@
+{
+  "shop_key": "synthetic-shop",
+  "goal_description": "虚构例子：希望2030年1月16日前满足目标标识的分数条件",
+  "objective": "black_badge",
+  "target": 83,
+  "deadline": "2030-01-16",
+  "badge_lag_days": 1,
+  "first_future_date": "2030-01-12",
+  "window_days": 30,
+  "current_score": 78,
+  "data_cutoff": "虚构快照：2030-01-11",
+  "history": {
+    "kind": "aggregate",
+    "count": 10,
+    "mean": 78,
+    "first_date": "2030-01-02",
+    "last_date": "2030-01-11",
+    "precision": "assumed"
+  },
+  "gates": {"brand": null, "shop_type": null, "average_score": false, "saleable_7d": null, "information_quality": null, "return_policy": null, "violations": null},
+  "assumptions": ["示例全部为虚构；展示均值作为精确值代入只是条件假设。"]
+}

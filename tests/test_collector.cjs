@@ -1,0 +1,11 @@
+const assert = require('node:assert/strict');
+const {findAXAction,parseExperience,detailCount}=require('../skills/douyin-score-planner/scripts/cua-collector.js');
+assert.equal(findAXAction('  12 按钮 导出查询数据\n  13 按钮 修改设置','export'),12);
+assert.throws(()=>findAXAction('  13 按钮 修改设置','settings'));
+assert.throws(()=>findAXAction('  12 按钮 导出查询数据\n  14 按钮 导出查询数据','export'));
+const r=parseExperience('更新时间： 2030-01-12 12:00:00\n我的总分 78 分\n按钮 商品体验 40%权重 70 分\n按钮 服务体验 60%权重 83 分');
+assert.equal(r.current_score,78);assert.equal(r.product_score,70);assert.equal(r.service_weight,0.6);
+assert.equal(parseExperience('历史分数趋势 正式阶段体验分均值 近7天平均体验分 77 近14天平均体验分 76 近30天平均体验分 75').mean_30d_display,75);
+assert.equal(detailCount('计算规则 商品综合评分 共 0 条数据','reviews'),null);
+assert.equal(detailCount('计算规则 商品综合评分 共 6 条数据','reviews'),6);
+console.log('collector policy and parser checks passed');

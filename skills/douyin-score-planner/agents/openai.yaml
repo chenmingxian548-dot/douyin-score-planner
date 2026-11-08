@@ -1,0 +1,4 @@
+interface:
+  display_name: "抖店体验分与目标分析"
+  short_description: "只读取数与报表复核，按目标和期限分析体验分、多种情景及准入差距"
+  default_prompt: "使用 $douyin-score-planner 根据我的店铺数据和目标，检查所需资料并进行可复核的多情景分析。"
