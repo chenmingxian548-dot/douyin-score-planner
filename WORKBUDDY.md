@@ -2,7 +2,7 @@
 
 不需要安装Codex。优先使用本项目提供的WorkBuddy专用技能ZIP，而不是把整个GitHub仓库ZIP当技能导入。
 
-1. [点击下载WorkBuddy专用技能包](https://github.com/chenmingxian548-dot/douyin-score-planner/raw/refs/heads/main/packages/douyin-score-planner-workbuddy-v0.1.0.zip)。将其保存到“下载”目录；保持ZIP，不要解压，也不要下载整个仓库ZIP来导入。
+1. [点击下载WorkBuddy专用技能包](https://raw.githubusercontent.com/chenmingxian548-dot/douyin-score-planner/refs/heads/main/packages/douyin-score-planner-workbuddy-v0.1.0.zip)。将其保存到“下载”目录；保持ZIP，不要解压，也不要下载整个仓库ZIP来导入。
 2. 打开WorkBuddy的技能页面，选择“添加技能→上传技能”，选择该ZIP。菜单可能因版本/语言略有区别，以当前界面为准。
 3. 阅读WorkBuddy的安全检查结果，需要本人确认的项目由本人操作，不绕过检查。
 4. 为这家店铺新开一个对话，发送：

@@ -6,7 +6,7 @@
 
 ## WorkBuddy快速开始
 
-1. [下载WorkBuddy专用技能包](https://github.com/chenmingxian548-dot/douyin-score-planner/raw/refs/heads/main/packages/douyin-score-planner-workbuddy-v0.1.0.zip)，保存为ZIP，直接导入，无需先解压。
+1. [下载WorkBuddy专用技能包](https://raw.githubusercontent.com/chenmingxian548-dot/douyin-score-planner/refs/heads/main/packages/douyin-score-planner-workbuddy-v0.1.0.zip)，保存为ZIP，直接导入，无需先解压。
 2. 打开WorkBuddy的“技能”，选择“添加技能→上传技能”，选择下载的ZIP，按客户端提示完成检查并启用。
 3. 为一家店新开一个对话，发送下面这段话：
 
